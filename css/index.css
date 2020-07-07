@@ -4,3 +4,11 @@ body {
     color: black;
     font-weight: 700;
 }
+
+h1 {
+    font-size: x-large;
+    text-align: center;
+    background-color: burlywood;
+    color: darkblue;
+    
+}
