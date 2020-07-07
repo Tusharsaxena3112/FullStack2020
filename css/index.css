@@ -45,3 +45,10 @@ p {
     float:right;
     padding: 10px;
 }
+
+footer {
+    background-color: slategray;
+    text-align: center;
+    line-height: 40px;
+    border: black solid 2px;
+}
