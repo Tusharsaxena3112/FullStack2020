@@ -1,14 +1,35 @@
 body {
+    padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: aqua;
+    background-image: linear-gradient(#b1f5d9, rgb(228, 228, 137));
     color: black;
     font-weight: 700;
 }
 
 h1 {
+    padding:10px;
     font-size: x-large;
     text-align: center;
     background-color: burlywood;
     color: darkblue;
-    
+    border: darkblue solid 5px;
+    position: relative;
+    display: block;
+    line-height: 40px;
+}
+.h1 {
+    position: relative;
+    text-align: center;
+    position: center;
+}
+
+h2 {
+    padding: 10px;
+    font-size:x-large;
+    background-color: burlywood;
+    color: darkblue;
+    border: darkblue solid 5px;
+    text-align: end;
+    line-height: 50px;
+    width: fit-content;
 }
