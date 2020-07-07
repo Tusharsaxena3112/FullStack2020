@@ -8,14 +8,15 @@ body {
 
 h1 {
     padding:10px;
-    font-size: x-large;
+    font-size: xx-large;
     text-align: center;
     background-color: burlywood;
     color: darkblue;
-    border: darkblue solid 5px;
+    border: darkblue solid 3px;
     position: relative;
     display: block;
     line-height: 40px;
+    font-variant: small-caps;
 }
 .h1 {
     position: relative;
@@ -28,8 +29,19 @@ h2 {
     font-size:x-large;
     background-color: burlywood;
     color: darkblue;
-    border: darkblue solid 5px;
+    border: darkblue solid 2px;
     text-align: end;
     line-height: 50px;
     width: fit-content;
+    font-variant: small-caps;
+}
+
+p {
+    color: saddlebrown;
+    font-size: large;
+}
+
+.img {
+    float:right;
+    padding: 10px;
 }
