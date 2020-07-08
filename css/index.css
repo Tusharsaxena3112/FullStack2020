@@ -30,12 +30,10 @@ h2 {
     background-color: burlywood;
     color: darkblue;
     border: darkblue solid 2px;
-    text-align: end;
     line-height: 50px;
     width: fit-content;
     font-variant: small-caps;
 }
-
 p {
     color: saddlebrown;
     font-size: large;
@@ -43,7 +41,10 @@ p {
 
 .img {
     float:right;
-    padding: 10px;
+    border-top: 2px chocolate solid;
+    border-left: 2px solid chocolate;
+    border-bottom:chocolate 5px solid;
+    border-right: chocolate 5px solid;
 }
 
 footer {
