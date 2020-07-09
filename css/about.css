@@ -1,10 +1,26 @@
 .box {
     border: rgb(203, 243, 227) solid 2px;
     padding: 5px;
-    text-align: center;
+    /* text-align: center; */
     border-right: 4px solid black;
     border-bottom: 4px solid black;
     /* border-top: 4px solid black; */
     font-variant: small-caps;
     margin: auto;
+    width:75%;
+    background-color: rgb(205, 255, 255);
+}
+
+.img-about {
+    border-top: 2px chocolate solid;
+    border-left: 2px solid chocolate;
+    border-bottom:chocolate 5px solid;
+    border-right: chocolate 5px solid;
+    position: relative;
+}
+
+h3 {
+    border: 1px darkgrey dashed;
+    width: fit-content;
+    padding: 5px;
 }
