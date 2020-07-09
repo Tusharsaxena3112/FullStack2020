@@ -4,6 +4,7 @@ body {
     background-image: linear-gradient(#b1f5d9, rgb(228, 228, 137));
     color: black;
     font-weight: 700;
+    font-variant: small-caps;
 }
 
 h1 {
@@ -30,6 +31,8 @@ h2 {
     background-color: burlywood;
     color: darkblue;
     border: darkblue solid 2px;
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
     line-height: 50px;
     width: fit-content;
     font-variant: small-caps;
